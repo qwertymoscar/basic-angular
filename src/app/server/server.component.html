@@ -1,0 +1,5 @@
+<p [ngStyle] = "{backgroundColor: getColor()}"
+   [ngClass] = "{oneline: serverStatus === 'oneline'}"
+    >
+    {{'server'}} with ID {{serverId}} is {{getServerStatus()}}
+</p>
